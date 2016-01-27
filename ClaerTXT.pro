@@ -18,3 +18,9 @@ SOURCES += main.cpp\
 HEADERS  += mainwindow.h
 
 FORMS    += mainwindow.ui
+
+RESOURCES += \
+    QCurrentResource.qrc
+
+RC_FILE +=\
+    WinResource.rc
