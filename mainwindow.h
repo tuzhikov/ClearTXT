@@ -52,9 +52,6 @@ quint64 countSizeFile;
            if(str.contains("\n", Qt::CaseInsensitive))return false;
            // проверка на 15шт. запятых
            int count = 0,inx=0;
-           /*count =str.count(',');
-           if(count!=15)return false;*/
-
                do{
                 count=str.indexOf(',',count);
                 if((count==0)||(count==-1))break;
